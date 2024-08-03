@@ -29,9 +29,9 @@ export default function LoginPage() {
         <div className="flex flex-col gap-2 text-center">
           {/* <Icons.logo className="mx-auto h-6 w-6" /> */}
           <h1 className="text-2xl font-semibold tracking-tight">
-            Welcome back
+            Welcome Back 🎉
           </h1>
-          <p className="text-sm text-muted-foreground">Login to your account</p>
+          <p className="text-sm text-muted-foreground">Login to Your Account</p>
         </div>
         <UserAuthForm />
         <p className="px-8 text-center text-sm text-muted-foreground">
