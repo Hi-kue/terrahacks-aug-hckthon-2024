@@ -32,7 +32,7 @@ export default function SignUpPage() {
             Welcome to Magic UI
           </h1>
           <p className="text-sm text-muted-foreground">
-            Sign up for an account
+            Sign Up for an account
           </p>
         </div>
         <UserAuthForm />

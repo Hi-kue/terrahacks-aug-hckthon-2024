@@ -1,5 +1,6 @@
 "use client";
 
+// TODO: Add Signin using Preferred Providers
 import { buttonVariants } from "@/components/ui/button";
 import {
   Form,
@@ -38,8 +39,6 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
 
   async function onSubmit(data: FormData) {
     setIsLoading(true);
-
-    // TODO: Add signin using preferred provider
     await new Promise((resolve) => setTimeout(resolve, 1000));
 
     const signInResult = { ok: true };
@@ -51,6 +50,8 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
       });
     }
 
+    // TODO: Edit to Send Email!
+
     return toast.success("Check your email", {
       description: "We sent you a login link. Be sure to check your spam too.",
     });
@@ -58,7 +59,6 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
 
   async function onSignInGithub() {
     setIsGitHubLoading(true);
-    // TODO: Add signin using preferred provider
     await new Promise((resolve) => setTimeout(resolve, 1000));
     setIsGitHubLoading(false);
   }
