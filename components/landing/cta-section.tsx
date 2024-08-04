@@ -182,7 +182,7 @@ export default function CallToActionSection() {
                   Start your 7-day free trial. No credit card required.
                 </p>
                 <Link
-                  href="#"
+                  href="/signup"
                   className={cn(
                     buttonVariants({
                       size: "lg",
