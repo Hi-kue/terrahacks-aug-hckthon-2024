@@ -7,3 +7,6 @@ turso db tokens create ecotrace-db
 **Drizzle-Kit Commands**
 npx drizzle-kit push
 npx drizzle-kit deploy
+
+**Git Commands**
+git rm --cached -r .

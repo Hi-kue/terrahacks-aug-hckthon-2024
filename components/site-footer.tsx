@@ -7,15 +7,15 @@ const footerNavs = [
     label: "Product",
     items: [
       {
-        href: "/",
+        href: "/", // TODO: Add Email Collection Link (Optional)
         name: "Email Collection",
       },
       {
-        href: "/pricing",
+        href: "/", // TODO: Add Pricing Link (Optional)
         name: "Pricing",
       },
       {
-        href: "/faq",
+        href: "/", // TODO: Add FAQ Link (Optional) 
         name: "FAQ",
       },
     ],
@@ -25,15 +25,15 @@ const footerNavs = [
     label: "Community",
     items: [
       {
-        href: "/",
+        href: "/", // TODO: Add Discord Link (Optional) 
         name: "Discord",
       },
       {
-        href: "/",
+        href: "/", // TODO: Add Twitter Link (Optional) 
         name: "Twitter",
       },
       {
-        href: "mailto:hello@chatcollect.com",
+        href: "mailto:hikue.primary@gmail.com",
         name: "Email",
       },
     ],
@@ -42,12 +42,12 @@ const footerNavs = [
     label: "Legal",
     items: [
       {
-        href: "/terms",
+        href: "/",
         name: "Terms",
       },
 
       {
-        href: "/privacy",
+        href: "/",
         name: "Privacy",
       },
     ],
@@ -56,12 +56,12 @@ const footerNavs = [
 
 const footerSocials = [
   {
-    href: "",
+    href: "", // TODO: Add Discord Social
     name: "Discord",
     icon: <DiscordLogoIcon className="h-4 w-4" />,
   },
   {
-    href: "",
+    href: "", // TODO: Add Twitter Social
     name: "Twitter",
     icon: <TwitterLogoIcon className="h-4 w-4" />,
   },
@@ -82,10 +82,13 @@ export function SiteFooter() {
                   className="rounded-lg text-primary"
               />
               <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                Magic UI
+                EcoTrace
               </span>
             </Link>
-            <p className="max-w-xs">UI Library for Design Engineers</p>
+            <p className="max-w-xs">
+              Pioneering platform that helps you reduce your carbon footprint
+              and make the world a better place.
+            </p>
           </div>
           <div className="grid grid-cols-1 gap-8 sm:gap-10 sm:grid-cols-3">
             {footerNavs.map((nav) => (
@@ -126,7 +129,7 @@ export function SiteFooter() {
           <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
             Copyright © {new Date().getFullYear()}{" "}
             <Link href="/" className="cursor-pointer">
-              Magic UI
+              EcoTrace
             </Link>
             . All Rights Reserved.
           </span>

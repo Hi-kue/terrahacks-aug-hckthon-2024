@@ -6,6 +6,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { AlignJustify, XIcon } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { SiteBanner } from "@/components/site-banner";
 
 const menuItem = [
   {
@@ -100,7 +101,7 @@ export function SiteHeader() {
       <header className="fixed left-0 top-0 z-50 w-full translate-y-[-1rem] animate-fade-in border-b opacity-0 backdrop-blur-[12px] [--animation-delay:600ms]">
         <div className="container flex h-[3.5rem] items-center justify-between">
           <Link className="text-md flex items-center" href="/">
-            Magic UI
+            EcoTrace
           </Link>
 
           <div className="ml-auto flex h-full items-center">
@@ -110,11 +111,11 @@ export function SiteHeader() {
             <Link
               className={cn(
                 buttonVariants({ variant: "secondary" }),
-                "mr-6 text-sm"
+                "mr-6 text-sm text-black bg-white hover:bg-black hover:text-white"
               )}
-              href="/signup"
-            >
+              href="/signup">
               Sign up
+              
             </Link>
           </div>
           <button
@@ -125,6 +126,7 @@ export function SiteHeader() {
             {hamburgerMenuIsOpen ? <XIcon /> : <AlignJustify />}
           </button>
         </div>
+        <SiteBanner />
       </header>
       <AnimatePresence>
         <motion.nav

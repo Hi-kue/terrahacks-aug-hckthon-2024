@@ -31,11 +31,11 @@ export default function HeroSection() {
 			</h2>
 			<p className="mb-12 text-lg tracking-tight text-gray-400 md:text-xl text-balance translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:400ms]">
 				An interactive and gamified approach to reducing your carbon footprint.
-				Compete with your friends and recieve tips on how you can help our
+				Compete with your friends and receive tips on how you can help our
 				planet stay healthy!
 				<br className="hidden md:block" />
 			</p>
-			<a href="/signup">
+			<a href="/dashboard">
 				<ShimmerButton className="shadow-2xl inline-flex items-center justify-center">
 					<span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
 						Get Started ✨
