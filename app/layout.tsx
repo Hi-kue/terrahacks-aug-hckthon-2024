@@ -10,7 +10,7 @@ const fontSans = FontSans({
   variable: "--font-sans",
 });
 export const metadata: Metadata = {
-  title: "EcoTrace - AI for Eco-Friendly Initiatives",
+  title: "EcoTrace | AI for Eco-Friendly Initiatives",
   description: "The future of eco-friendly initiatives is here.",
 };
 

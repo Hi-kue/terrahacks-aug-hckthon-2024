@@ -1,22 +1,3 @@
-import {
-	createAI,
-	createStreamableUI,
-	getMutableAIState,
-	getAIState,
-	streamUI,
-	createStreamableValue,
-} from "ai/rsc";
-import { openai } from "@ai-sdk/openai";
-
-import {
-	spinner,
-	BotCard,
-	BotMessage,
-	SystemMessage,
-	Stock,
-	Purchase,
-} from "@/components/stocks";
-
 import { z } from "zod";
 import {
 	formatNumber,

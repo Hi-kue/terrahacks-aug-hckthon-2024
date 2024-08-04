@@ -24,22 +24,24 @@ export default function HeroSection() {
 				</TextShimmer>
 			</div>
 			<h1 className="bg-gradient-to-br dark:from-white from-black from-30% dark:to-white/40 to-black/40 bg-clip-text py-6 text-5xl font-medium leading-none tracking-tighter text-transparent text-balance sm:text-6xl md:text-7xl lg:text-8xl translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:200ms]">
-        EcoTrace
-      </h1>
-      <h2 className="bg-gradient-to-br dark:from-white from-black from-30% dark:to-white/40 to-black/40 bg-clip-text py-2 text-2xl font-medium leading-none tracking-tighter text-transparent text-balance sm:text-3xl md:text-4xl lg:text-5xl translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:400ms]">
-        Pioneering the path to a greener future.
-      </h2>
-      <p className="mb-12 text-lg tracking-tight text-gray-400 md:text-xl text-balance translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:400ms]">
-        An interactive and gamified approach to reducing your carbon footprint. Compete with your friends and recieve tips on how you can help our planet stay healthy!
-        <br className="hidden md:block" />
-      </p>
-      <a href="/signup">
-        <ShimmerButton className="shadow-2xl inline-flex items-center justify-center">
-          <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
-            Get Started ✨
-          </span>
-        </ShimmerButton>
-      </a>
+				EcoTrace
+			</h1>
+			<h2 className="bg-gradient-to-br dark:from-white from-black from-30% dark:to-white/40 to-black/40 bg-clip-text py-2 text-2xl font-medium leading-none tracking-tighter text-transparent text-balance sm:text-3xl md:text-4xl lg:text-5xl translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:400ms]">
+				Pioneering the path to a greener future.
+			</h2>
+			<p className="mb-12 text-lg tracking-tight text-gray-400 md:text-xl text-balance translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:400ms]">
+				An interactive and gamified approach to reducing your carbon footprint.
+				Compete with your friends and recieve tips on how you can help our
+				planet stay healthy!
+				<br className="hidden md:block" />
+			</p>
+			<a href="/signup">
+				<ShimmerButton className="shadow-2xl inline-flex items-center justify-center">
+					<span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
+						Get Started ✨
+					</span>
+				</ShimmerButton>
+			</a>
 			<div
 				ref={ref}
 				className="relative mt-[8rem] animate-fade-up opacity-0 [--animation-delay:400ms] [perspective:2000px] after:absolute after:inset-0 after:z-50 after:[background:linear-gradient(to_top,hsl(var(--background))_30%,transparent)]"
@@ -62,6 +64,7 @@ export default function HeroSection() {
 						alt="Hero Image"
 						className="hidden relative w-full h-full rounded-[inherit] border object-contain dark:block"
 					/>
+					
 					<img
 						src="/hero-light.png"
 						alt="Hero Image"
